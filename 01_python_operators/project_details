@@ -1,0 +1,64 @@
+Project
+Healthcare Collection Account Processing
+By AJIT UJAGARE
+
+Python Operators - Healthcare Collection Account Processing 
+
+Project Overview
+
+This project is part of my Python learning journey for Azure Data Engineering. The practice uses a fictional healthcare debt collection business scenario to understand Python operators through real-world business problems.
+
+Business Scenario
+
+A healthcare debt collection company receives past-due medical accounts from healthcare providers in the USA.
+
+The data contains information such as:
+
+- Account ID
+- Original bill amount
+- Insurance paid
+- Patient payment
+- Account status
+- Remaining balance
+
+The goal is to use Python to calculate balances, validate account data, and apply business rules.
+
+Data in dict 
+
+account = {
+    "account_id": "ACC1001",
+    "bill_amount": 5000,
+    "insurance_paid": 3500,
+    "payment": 500,
+    "status": "IN_COLLECTION"
+}
+
+
+Practice Questions
+Calculate the patient's responsibility after insurance.
+Calculate the remaining balance after the patient's payment.
+Add the calculated remaining balance to the account dictionary.
+Check whether the remaining balance is greater than zero.
+Check whether the remaining balance is equal to zero.
+Check whether the remaining balance is greater than or equal to $1,000.
+Check whether the account has an outstanding balance and the status is "IN_COLLECTION".
+Check whether the account status is "PAID" or "CLOSED".
+Check whether the account does not have a zero balance.
+Create a list of valid account statuses and check whether the account's status is valid.
+Change the account status to "UNKNOWN" and check whether it is an invalid status.
+Create phone = None and check whether the patient's phone number is missing.
+Add a new payment of $200 to the existing payment amount.
+Reduce the remaining balance by $200.
+Check whether the insurance amount is less than or equal to the original bill amount.
+Check whether the payment amount is less than or equal to the patient's responsibility.
+Calculate what percentage of the original bill was paid by insurance.
+Check whether the account has an outstanding balance or is currently in collection.
+Validate whether the account satisfies all required business rules.
+Determine whether the account should be sent to a collection agent based on its balance and status.
+Calculate the unpaid percentage of the patient's responsibility.
+Check whether the remaining balance is between $500 and $2,000.
+Check whether the account status is neither "PAID" nor "CLOSED".
+Check whether the payment amount is greater than zero and the account has an outstanding balance.
+Calculate how many equal $250 payments would be needed to pay the remaining balance.
+
+
